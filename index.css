@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container{
+    background-color: #0005;
+    color: white;
+}
+
+.myown{
+    background-blend-mode: overlay;
+    background-color: rgb(0, 0, 0, 0.5);
+    /* padding-top: 250px; */
+    /* padding-bottom: 600px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main{
+    /* width: 100%;
+    height: 100vw; */
+    background-image: url(./image/perfume\ 2.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-position: center;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.testimonials-div{
+    background: url(./image/perfume\ 8.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.border-div{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.testin ul li a:hover{
+    background-color: gold;
+    transition: 0.8s all;
+}
+
+.button1:hover{
+    background-color: white;
+    color: gold;
+}
+
+.button2:hover{
+    background-color: gold;
+    color: white;
+}
+
+.footer{
+    background: url(./image/perfume\ 7.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    /* height: 50vh; */
+    background-blend-mode: overlay;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.div-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo1:hover{
+    content: url(./image/ic--baseline-facebook\ \(1\).png);
+}
+
+.logo2:hover{
+    content: url(./image/ic--baseline-tiktok.png);
+}
+
+.logo3:hover{
+    content: url(./image/mdi--instagram\ \(1\).png);
+}
+
+.logo4:hover{
+    content: url(./image/mdi--linkedin.png);
+}
+
+.logo5:hover{
+    content: url(./image/mdi--youtube\ \(1\).png);
+}
+
+.logo6:hover{
+    content: url(./image/ic--baseline-snapchat.png);
+}
+
+.logo7:hover{
+    content: url(./image/ic--baseline-whatsapp\ \(1\).png);
+}
+
+.card1:hover img{
+    content: url(./image/man\ and\ perfume\ \(1\).jpg);
+}
+
+.card2:hover img{
+    content: url(./image/woman\ and\ perfume.jpg);
+}
+
+.card3:hover img{
+    content: url(./image/scented\ candles.jpg);
+}
+
+.card4:hover img{
+    content: url(./image/landscape\ air.jpg);
+}
+
+.card5:hover img{
+    content: url(./image/500\ storm.jpg);
+}
+
+.card6:hover img{
+    content: url(./image/500\ anti.jpg);
+}
+
+.card7:hover img{
+    content: url(./image/500\ baby\ perf.png);
+}
+
+.card8:hover img{
+    content: url(./image/500perf.jpg);
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    .main{
+        /* height: 250vw; */
+        flex-direction: column;
+    }
+
+    .myown{
+        width: 100%;
+    }
+
+    .carousel-div{
+        margin-top: 0px;
+    }
+
+    .face{
+        text-align: center;
+        justify-content: center;
+    }
+
+    .div-footer{
+        width: 80%;
+        gap: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-div{
+        flex-wrap: wrap;
+    }
+
+    .text-div-footer{
+        text-align: center;
+    }
+}
+
+@media (min-width:481px) and (max-width: 768px) {
+    .face{
+        text-align: center;
+        justify-content: center;
+    }
+
+      .div-footer{
+        width: 80%;
+        gap: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-div{
+        flex-wrap: wrap;
+    }
+
+    .text-div-footer{
+        text-align: center;
+    }
+}
