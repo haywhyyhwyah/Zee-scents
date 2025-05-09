@@ -53,13 +53,13 @@
 }
 
 .button1:hover{
-    background-color: white;
-    color: gold;
+    background-color: white !important;
+    color: gold !important;
 }
 
 .button2:hover{
-    background-color: gold;
-    color: white;
+    background-color: gold !important;
+    color: white !important;
 }
 
 .footer{
@@ -111,6 +111,7 @@
 
 .card1:hover img{
     content: url(./image/man\ and\ perfume\ \(1\).jpg);
+    transition-duration:  1s !important;
 }
 
 .card2:hover img{
@@ -139,6 +140,21 @@
 
 .card8:hover img{
     content: url(./image/500perf.jpg);
+}
+
+.myown1:hover{
+    background-blend-mode: overlay;
+    background-color: #0005;
+}
+
+.amoo:hover{
+    border: 2px solid white !important;
+    background-color: #ff4b91 !important;
+    color: white !important;
+}
+
+.amoo:hover img{
+    content: url(./image/east_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg);
 }
 
 
