@@ -40,6 +40,8 @@
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    background-blend-mode: overlay;
+    background-color: #0005;
 }
 
 .border-div{
@@ -109,9 +111,13 @@
     content: url(./image/ic--baseline-whatsapp\ \(1\).png);
 }
 
+.card1 img{
+    transition: transform 1s ease, content 1s ease !important;
+}
+
+
 .card1:hover img{
     content: url(./image/man\ and\ perfume\ \(1\).jpg);
-    transition-duration:  1s !important;
 }
 
 .card2:hover img{

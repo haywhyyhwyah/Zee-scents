@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./image/perfume\ 6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay !important;
+    background-color: #0005 !important;
+}
+
+.navbar-container{
+    background-color: #0005;
+    color: white;
+}
+
+.testin ul li a:hover{
+    background-color: #ffd700;
+    transition: 0.8s all;
+}
+
+.button1:hover{
+    background-color: white !important;
+    color: gold !important;
+}
+
+.button1:hover img{
+    content: url(./image/east_24dp_FFD700_FILL0_wght400_GRAD0_opsz24.svg);
+}
+
+.cards{
+    transition: transform 0.7s ease-in-out;
+}
+
+.cards:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px #0002;
+}
