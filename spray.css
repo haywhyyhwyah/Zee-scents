@@ -43,3 +43,87 @@ body{
 .cards{
     transition: transform 0.7s ease-in-out;
 }
+
+
+.footer{
+    background-image: url(./image/perfume\ 6.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    /* height: 50vh; */
+    background-blend-mode: overlay;
+    background-color: rgb(0, 0, 0, 0.7);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.div-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo1:hover{
+    content: url(./image/gold\ facebook.png);
+}
+
+.logo2:hover{
+    content: url(./image/gold\ tiktok.png);
+}
+
+.logo3:hover{
+    content: url(./image/gold\ instagram.png);
+}
+
+.logo4:hover{
+    content: url(./image/gold\ linkedin.png);
+}
+
+.logo5:hover{
+    content: url(./image/gold\ youtube.png);
+}
+
+.logo6:hover{
+    content: url(./image/gold\ snapchat.png);
+}
+
+.logo7:hover{
+    content: url(./image/gold\ whatsapp.png);
+}
+
+
+@media screen and (max-width: 480px) {
+    .div-footer{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-div{
+        flex-wrap: wrap;
+    }
+
+    .text-div-footer{
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .div-footer{
+        width: 100%;
+        gap: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-div{
+        flex-wrap: wrap;
+    }
+
+    .text-div-footer{
+        text-align: center;
+    }
+}

@@ -1,15 +1,16 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body{
-    background-image: url(./image/perfume\ 6.jpg);
+    background-image: url(./Rollonimage/download);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     background-blend-mode: overlay !important;
-    background-color: #0005 !important;
+    background-color: #0008 !important;
 }
 
 .navbar-container{
@@ -22,17 +23,16 @@ body{
     transition: 0.8s all;
 }
 
-.button1:hover{
-    background-color: white !important;
-    color: gold !important;
-}
-
-.button1:hover img{
-    content: url(./image/east_24dp_FFD700_FILL0_wght400_GRAD0_opsz24.svg);
-}
-
 .cards{
-    transition: transform 0.7s ease-in-out;
+    background-color: #000000 !important;
+}
+
+.cards {
+    color: white !important;
+}
+
+.card-text{
+    color: white !important;
 }
 
 .cards:hover{
@@ -40,9 +40,12 @@ body{
     box-shadow: 0 4px 8px #0002;
 }
 
+.cards{
+    transition: transform 0.7s ease-in-out;
+}
 
 .footer{
-    background-image: url(./image/perfume\ 5.jpg);
+    background-image: url(./Rollonimage/roll\ 6);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -87,7 +90,6 @@ body{
 .logo7:hover{
     content: url(./image/gold\ whatsapp.png);
 }
-
 
 
 @media screen and (max-width: 480px) {
