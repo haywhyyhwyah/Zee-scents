@@ -163,6 +163,23 @@
     content: url(./image/east_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg);
 }
 
+::-webkit-scrollbar {
+  width: 10px; /* Set scrollbar width */
+}   
+
+::-webkit-scrollbar-track {
+  background-color: black; /* Set track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gold; /* Set thumb color */
+    border-radius: 10px; /* Set thumb border radius */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: lightgoldenrodyellow; /* Set hover color */
+}
+
 
 
 

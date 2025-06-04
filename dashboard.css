@@ -12,6 +12,12 @@ body{
     background-color: #0005 !important;
 }
 
+.nav-search{
+    visibility: visible;
+    width: 100vw !important;
+    margin-right: 70px;
+}
+
 .navbar-container{
     background-color: #0005;
     color: white;
@@ -28,6 +34,15 @@ body{
 }
 
 .button1:hover img{
+    content: url(./image/east_24dp_FFD700_FILL0_wght400_GRAD0_opsz24.svg);
+}
+
+.button2:hover{
+    background-color: white !important;
+    color: gold !important;
+}
+
+.button2:hover img{
     content: url(./image/east_24dp_FFD700_FILL0_wght400_GRAD0_opsz24.svg);
 }
 
@@ -88,6 +103,23 @@ body{
     content: url(./image/gold\ whatsapp.png);
 }
 
+::-webkit-scrollbar {
+  width: 10px; /* Set scrollbar width */
+}   
+
+::-webkit-scrollbar-track {
+  background-color: black; /* Set track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gold; /* Set thumb color */
+    border-radius: 10px; /* Set thumb border radius */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: lightgoldenrodyellow; /* Set hover color */
+}
+
 
 
 @media screen and (max-width: 480px) {
@@ -104,6 +136,11 @@ body{
 
     .text-div-footer{
         text-align: center;
+    }
+
+    .nav-search{
+        visibility: visible;
+        margin: auto;
     }
 }
 
@@ -122,5 +159,18 @@ body{
 
     .text-div-footer{
         text-align: center;
+    }
+
+    .nav-search{
+        visibility: visible;
+        margin: auto;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .nav-search{
+        visibility: visible;
+        margin-left: 70px;
     }
 }
